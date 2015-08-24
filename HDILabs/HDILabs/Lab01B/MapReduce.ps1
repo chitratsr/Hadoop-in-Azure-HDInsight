@@ -25,8 +25,8 @@ foreach($file in $files){
 write-host "All files in $localFolder uploaded to $containerName!"
 
 # Run a Map/Reduce job
-# $jobDef = New-AzureHDInsightMapReduceJobDefinition -JarFile "wasb:///example/jars/hadoop-mapreduce-examples.jar" -ClassName "wordcount" -Arguments "wasb:///$remotefolder", "wasb:///$remotefolder/output"
-$jobDef = New-AzureHDInsightMapReduceJobDefinition -JarFile "/example/jars/hadoop-mapreduce-examples.jar" -ClassName "wordcount" -Arguments "$remotefolder", "$remotefolder/output"
+$jobDef = New-AzureHDInsightMapReduceJobDefinition -JarFile "wasb:///example/jars/hadoop-mapreduce-examples.jar" -ClassName "wordcount" -Arguments "wasb:///$remotefolder", "wasb:///$remotefolder/output"
+# $jobDef = New-AzureHDInsightMapReduceJobDefinition -JarFile "/example/jars/hadoop-mapreduce-examples.jar" -ClassName "wordcount" -Arguments "$remotefolder", "$remotefolder/output"
 
 
 $wordCountJob = Start-AzureHDInsightJob -Cluster $clusterName -JobDefinition $jobDef
