@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{81BE5007-4CAB-4670-AEEB-3DA6572B9D12}") = "hive", "hive\hive.hiveproj", "{CD22B869-91CB-48D8-B211-5615B389F15D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD22B869-91CB-48D8-B211-5615B389F15D}.Debug|x86.ActiveCfg = Debug|x86
+		{CD22B869-91CB-48D8-B211-5615B389F15D}.Debug|x86.Build.0 = Debug|x86
+		{CD22B869-91CB-48D8-B211-5615B389F15D}.Release|x86.ActiveCfg = Release|x86
+		{CD22B869-91CB-48D8-B211-5615B389F15D}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
