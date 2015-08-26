@@ -1,5 +1,5 @@
 $clusterName = "clusterHive"
-$storageAccountName = "gdwanghstorage"
+$storageAccountName = "hdstores"
 $containerName = "hdfiles"
 
 $thisfolder = Split-Path -parent $MyInvocation.MyCommand.Definition
